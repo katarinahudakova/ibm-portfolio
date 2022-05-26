@@ -1,0 +1,88 @@
+{
+    "about": {
+        "defaultFilter": "frontend",
+        "teamList": [
+            {
+                "name": "Branislav Hozza",
+                "position": "Developer",
+                "title": "description ",
+                "image": "1.jpg",
+                "filter": "frontend"
+            },
+            {
+                "name": "Branislav Hozza",
+                "position": "Developer",
+                "title": "Adobe Aft",
+                "image": "2.jpg",
+                "filter": "frontend"
+            },
+            {
+                "name": "Branislav Hozza",
+                "position": "Developer",
+                "title": "Adobe A",
+                "image": "3.jpg",
+                "filter": "frontend"
+            },
+            {
+                "name": "Branislav Hozza",
+                "position": "Developer",
+                "title": "Adobe ",
+                "image": "4.jpg",
+                "filter": "frontend"
+            },
+            {
+                "name": "Branislav Hozza",
+                "position": "Developer",
+                "title": "Branko ",
+                "image": "7.jpg",
+                "filter": "frontend"
+            },
+            {
+                "name": "Branislav Hozza",
+                "position": "Developer",
+                "title": "Adob",
+                "image": "1.jpg",
+                "filter": "backend"
+            }
+        ]
+    },
+
+    "projects":{
+        "defaultFilter": "cde",
+        "projectList": [
+            {
+                "project": "CDE",
+                "video": "cde.mp4",
+                "description": "lorem",
+                "filter": "cde"
+            },
+            {
+                "project": "SAB-ART",
+                "video": "sabart.mp4",
+                "description": "loremlorem",
+                "filter": "sabart"
+            },
+            {
+                "project": "LIW",
+                "video": "liw2.mp4",
+                "description": "loremloremlorem",
+                "filter": "liw"
+            },
+            {
+                "project": "EBAT",
+                "video": "ebat3.mp4",
+                "description": "loremloremloremlorem",
+                "filter": "ebat"
+            }
+        ]
+    },
+
+    "contact":{
+        "company": "IBM ISC s.r.o., West End Gate",
+        "street": "Dubravska cesta 1799",
+        "city": "841 01 Karlova Ves, Slovakia",
+        "phone": "+(421) 904 652 093",
+        "social": "ivan-ba-team",
+        "email": "igaletic@sk.ibm.com"
+    }
+}
