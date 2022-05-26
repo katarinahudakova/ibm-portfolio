@@ -1,0 +1,163 @@
+
+#contact {
+
+    color: $gray-dark!important;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding: 1rem; 
+    background-color: $gray-light;
+    background-image: url("./../../assets/images/abstract.png");
+  
+  
+      .container-fluid {
+        padding: 1rem;
+        margin: 0px!important;
+        margin-top: 1.5rem!important;
+  
+        .section-header {
+          color: $purple-dark!important; 
+          text-decoration: underline;
+          -webkit-text-decoration-color: $purple-light;
+                  text-decoration-color: $purple-light;
+          text-decoration-thickness: 0.2rem;
+          padding-bottom: 1.75rem;
+        }
+  
+        
+  
+        #contact-container {
+          margin: $spacer auto;
+          padding: 0;
+          /* max-width: 600px; */
+          height: auto;
+          display: flex;
+          justify-content: center;
+
+
+          h2{
+            display: flex;
+            justify-content: center;
+          }
+  
+          .contact-info{
+                width: 75%;
+                margin: auto;
+
+                .list-group{
+                    display: flex;
+                    flex-direction: column;
+
+                    .list-group-item{
+                        display: flex;
+                        flex-direction: column;
+                        /* align-items: flex-end!important; */
+
+                        h3{
+                            text-align: left;
+                            font-size: 20px;
+                        }
+
+                        span{
+                            display: flex;
+                            flex-direction: column; 
+                        }
+                        .company{
+                            margin-top: -30px;
+                            margin-left: 20px;
+                        }
+                        .street{
+                            margin-left: -32px!important;
+                        }
+                        .city{
+                            margin-left: 16px!important;
+                        }
+                        .phone{
+                            margin-top: -30px;
+                            margin-left: 50px;
+                        }
+                        .email{
+                            margin-top: -30px;
+                            margin-left: 50px;
+                        }
+                        .social{
+                            margin-top: -30px;
+                        }
+                    }
+                }
+          }
+
+          .video-ibm{
+              margin-top: 30px;
+          }
+        }
+  
+    }
+}
+  
+@media only screen and (max-width: 990px){
+    #contact{
+        background-position: center center;
+        /* background-image: url("./../../assets/images/abstract-responsive.png"); */
+        background-image: none;
+        
+        .container-fluid {
+
+            .section-header {
+                padding-bottom: 0rem!important;
+            }
+
+            #contact-container {
+
+                h2{
+                    margin-bottom: 0px;
+                }
+
+                .contact-info{
+                    width: 95%;
+                    margin-top: 1rem;
+
+                    .list-group{
+
+                        .list-group-item{
+
+                            .company{
+                                margin-left: 0px;
+                            }
+                            .street{
+                                margin-left: -52px!important;
+                            }
+                            .city{
+                                margin-left: -4px!important;
+                            }
+                            .phone{
+                                margin-left: 0px;
+                            }
+                            .email{
+                                margin-left: 0px;
+                            }
+                        }
+                    }
+                }
+
+                .video-ibm{
+                    margin-top: 1rem;
+                    iframe{
+                        width: 95%;
+                        height: 180px;
+                    }
+                }
+
+                .map{  
+                    margin-top: 1rem;
+                    iframe{
+                        width: 95%;
+                        height: 240px;
+                    }
+                }
+            }
+        }
+    }
+}
