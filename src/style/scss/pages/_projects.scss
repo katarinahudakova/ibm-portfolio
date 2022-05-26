@@ -1,0 +1,33 @@
+#projects{
+    color: $gray-light!important;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding: 1rem; 
+    background-color: $gray-dark;
+    background-image: url("./../../assets/images/abstracttt.png");
+
+    .container-fluid {
+        padding: 1rem;
+        margin: 0px!important;
+        margin-top: 1.5rem!important;
+  
+        .section-header {
+          color: $purple-light!important; 
+          text-decoration: underline;
+          -webkit-text-decoration-color: $purple-dark;
+                  text-decoration-color: $purple-dark;
+          text-decoration-thickness: 0.2rem;
+          padding-bottom: 1.75rem;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 990px){
+  #projects{
+    background-image: none;
+  }
+}
