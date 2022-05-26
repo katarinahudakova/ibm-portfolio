@@ -1,0 +1,32 @@
+section{
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: $spacer-sm;
+
+    .container-fluid {
+        padding: $spacer-sm;
+        margin: $spacer-lg auto;
+    }
+}
+
+.filters {
+    a {
+      padding: $spacer;
+    }
+  
+    .filter {
+      margin: 0 auto;
+    }
+}
+
+/* @media only screen and (max-width: 990px){
+  .sections-together{
+    background-image: url('./../../assets/images/abstract-responsive-full-06.png')!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-color: transparent!important;
+  }
+} */
