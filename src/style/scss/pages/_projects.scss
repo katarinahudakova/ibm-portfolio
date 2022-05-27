@@ -25,8 +25,13 @@
 
         .filters{
 
+          ul{
+            margin-bottom: 0px!important;
+          }
+
           .filter {
             margin: 0 auto;
+            
   
             a {
               margin: 2rem;
@@ -65,8 +70,16 @@
             flex-direction: column;
 
             .projects-item{
-              video{
+              /* video{
                 max-width: 30%;
+                margin-top: 1rem;
+              } */
+              margin-top: 1rem;
+
+              iframe{
+                width: 40vw;
+                height: auto;
+                min-height: 40vh;
               }
             }
   
@@ -76,6 +89,7 @@
               background-color: #232323;
               padding: 1rem;
               border-radius: 20px;
+              margin-top: 0rem;
 
               h2{
                 font-size: 1.6rem;
@@ -110,7 +124,7 @@
       }
       
       .filters{
-
+        
         .filter {
 
           a {
@@ -125,8 +139,14 @@
 
           .projects-item{
               
-            video{
+            /* video{
               max-width: 95%!important;
+            } */
+
+            iframe{
+              width: 75vw;
+              height: auto;
+              min-height: 20vh;
             }
           }         
           
