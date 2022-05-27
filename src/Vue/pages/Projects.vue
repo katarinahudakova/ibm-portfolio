@@ -35,17 +35,30 @@
           :key="index"
           class="col-sm-12 col-md-12 flex-col"
         >
-          <div class="projects-item">
-            <video style="max-width:30%; max-height:auto display:block" controls muted>
-                <source :src="require(`./../../assets/videos/${item.video}`)" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-          </div>
 
           <div class="project-description">
             <h2>{{ item.project }}</h2>
             <p>{{ item.description }}</p>
           </div>
+
+          <div class="projects-item">
+            <!-- <video style="max-width:30%; max-height:auto display:block" controls muted>
+                <source :src="require(`../../assets/videos/${item.video}`)" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> -->
+
+              <iframe 
+                    width="100%" 
+                    height="200" 
+                    :src="item.video" 
+                    title="YouTube video player"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+              </iframe>
+          </div>
+
+
         </div>
       </div>
 
