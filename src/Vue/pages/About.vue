@@ -12,7 +12,7 @@
         <ul class="list-inline mx-auto">
           <li
             v-for="item in filters"
-            :key="item.title"
+            :key="item.name"
             class="list-inline-item filter"
           >
             <a
@@ -39,7 +39,7 @@
             
             v-for="(item, index) in filteredPeople"
             :key="index"
-            class="col-sm-12 col-md-2 flex-col"
+            class="col-6 col-sm-6 col-md-2 col-lg-2 flex-col"
           >
 
             <div class="portfolio-item">
@@ -48,7 +48,6 @@
                 
                   <div class="about-item-content">
                     <h3>{{ item.title }}</h3>
-                    <p>{{ item.description }}</p>
                   </div>
                 
               </div>
