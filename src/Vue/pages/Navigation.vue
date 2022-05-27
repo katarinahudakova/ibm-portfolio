@@ -9,7 +9,7 @@
       <cv-header-menu-item href="#about">
         About us
       </cv-header-menu-item>
-      <cv-header-menu-item href="javascript:void(0)">
+      <cv-header-menu-item href="#projects">
         Projects
       </cv-header-menu-item>
       <cv-header-menu-item href="#contact">
