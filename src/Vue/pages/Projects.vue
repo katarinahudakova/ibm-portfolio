@@ -29,22 +29,22 @@
 
       <!-- start of skill container  -->
 
-      <div id="portfolio-container" class="row">
+      <div id="projects-container" class="row">
         <div
           v-for="(item, index) in filteredProjects"
           :key="index"
           class="col-sm-12 col-md-12 flex-col"
         >
-          <div class="portfolio-item">
-            <video style="max-width:40%; max-height:auto display:block" controls muted>
-                <source :src="require(`../../assets/videos/${item.video}`)" type="video/mp4">
+          <div class="projects-item">
+            <video style="max-width:30%; max-height:auto display:block" controls muted>
+                <source :src="require(`./../../assets/videos/${item.video}`)" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
           </div>
 
           <div class="project-description">
             <h2>{{ item.project }}</h2>
-            <h5>{{ item.description }}</h5>
+            <p>{{ item.description }}</p>
           </div>
         </div>
       </div>
