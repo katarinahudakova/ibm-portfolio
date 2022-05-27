@@ -71,11 +71,16 @@
     #hero-section-header{
 
         .hero-background{
-            background-position: -18rem center;
+            background-image: url("./../../assets/images/hero-bg-responsive.png");
         }
 
         .hero-text-header{
             width: 90%;
+            top: 15%;
+
+            h3{
+                font-size: $font-size-xl;
+            }
         }
     }
 }

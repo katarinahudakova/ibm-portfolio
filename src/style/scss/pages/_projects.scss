@@ -22,12 +22,128 @@
           text-decoration-thickness: 0.2rem;
           padding-bottom: 1.75rem;
         }
+
+        .filters{
+
+          .filter {
+            margin: 0 auto;
+  
+            a {
+              margin: 2rem;
+              cursor: pointer;
+              padding: 0rem!important;
+            }
+  
+            .nav-item {
+              font-family: $body-font;
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: 0.8rem;
+              color: $gray-light;
+            }
+  
+            .active {
+              color: $purple-light;
+            }
+          }
+        }
+
+
+        #projects-container{
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: auto;
+
+          .flex-col{
+            margin: 1rem;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .projects-item{
+              video{
+                max-width: 30%;
+              }
+            }
+  
+            .project-description{
+              max-width: 60%;
+              display: block;
+              background-color: #232323;
+              padding: 1rem;
+              border-radius: 20px;
+
+              h2{
+                font-size: 1.6rem;
+                color: $purple-light;
+              }
+  
+              p{
+                font-size: 1rem;
+                text-align: justify;
+                color: $gray-light;
+              }
+            }
+          }
+        }
     }
 }
 
 
 @media only screen and (max-width: 990px){
   #projects{
-    background-image: none;
+    background-image: url("./../../assets/images/abstract-responsive.png");
+    background-position: center center;
+
+    .container-fluid {
+      padding: 0rem;
+      margin: 0px!important;
+      margin-top: 1.5rem !important;
+
+      .section-header {
+        padding-bottom: 0rem;
+        margin-bottom: 1.75rem;
+      }
+      
+      .filters{
+
+        .filter {
+
+          a {
+            margin: 1rem;
+          }
+        }
+      }
+
+      #projects-container{
+
+        .flex-col{
+
+          .projects-item{
+              
+            video{
+              max-width: 95%!important;
+            }
+          }         
+          
+          .project-description{
+            max-width: 95%;
+
+            h2{
+              font-size: $font-size-lg;
+            }
+
+            p{
+              font-size: $font-size-md;
+            }
+          }
+        }
+      }
+
+    }
   }
 }

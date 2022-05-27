@@ -1,6 +1,4 @@
-
 #about {
-
   color: $gray-dark!important;
   min-height: 100%;
   width: 100%;
@@ -108,7 +106,7 @@
                 bottom: 0;
                 overflow: hidden;
                 color: #f0f0f0;
-                padding: 2rem;
+                padding: 1rem;
                 margin: 0 auto;
                 vertical-align: middle;
                 text-align: center;
@@ -145,8 +143,57 @@
 
 @media only screen and (max-width: 990px){
   #about {
-    background-image: none;
-    background-position: center center
-    ;
+    background-image: url("./../../assets/images/abstract-responsive.png");
+    background-position: center center;
+
+    .container-fluid {
+      padding: 0rem;
+      margin: 0px!important;
+      margin-top: 1.5rem !important;
+
+      .section-header {
+        padding-bottom: 0rem;
+      }
+
+      .textik{
+        margin-top: 1rem;
+        font-size: $font-size-sm;
+      }
+
+      #portfolio-container {
+        
+        .flex-col {
+          margin: 0;
+          margin-bottom: 1.2rem;
+
+          .portfolio-item {
+
+            h3 {
+              font-size: $font-size-sm;
+            }
+
+            .overlay {
+
+              .about-item-content {
+                padding: 1.5rem 0.5rem;
+              }
+            }
+          }
+
+          .nameee{
+            margin-top: 1rem;
+
+            h2{
+              font-size: 1rem;
+            }
+
+            h5{
+              font-size: $font-size-sm;
+              margin-top: 0.3rem;
+            }
+          }
+        }
+      }
+    }
   }
 }

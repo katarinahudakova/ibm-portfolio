@@ -215,10 +215,14 @@ footer .copyright {
 
 @media only screen and (max-width: 990px) {
   #hero-section-header .hero-background {
-    background-position: -18rem center;
+    background-image: url("./../../assets/images/hero-bg-responsive.png");
   }
   #hero-section-header .hero-text-header {
     width: 90%;
+    top: 15%;
+  }
+  #hero-section-header .hero-text-header h3 {
+    font-size: 1.8rem;
   }
 }
 
@@ -338,7 +342,7 @@ footer .copyright {
   bottom: 0;
   overflow: hidden;
   color: #f0f0f0;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0 auto;
   vertical-align: middle;
   text-align: center;
@@ -366,8 +370,40 @@ footer .copyright {
 
 @media only screen and (max-width: 990px) {
   #about {
-    background-image: none;
+    background-image: url("./../../assets/images/abstract-responsive.png");
     background-position: center center;
+  }
+  #about .container-fluid {
+    padding: 0rem;
+    margin: 0px !important;
+    margin-top: 1.5rem !important;
+  }
+  #about .container-fluid .section-header {
+    padding-bottom: 0rem;
+  }
+  #about .container-fluid .textik {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  #about .container-fluid #portfolio-container .flex-col {
+    margin: 0;
+    margin-bottom: 1.2rem;
+  }
+  #about .container-fluid #portfolio-container .flex-col .portfolio-item h3 {
+    font-size: 0.8rem;
+  }
+  #about .container-fluid #portfolio-container .flex-col .portfolio-item .overlay .about-item-content {
+    padding: 1.5rem 0.5rem;
+  }
+  #about .container-fluid #portfolio-container .flex-col .nameee {
+    margin-top: 1rem;
+  }
+  #about .container-fluid #portfolio-container .flex-col .nameee h2 {
+    font-size: 1rem;
+  }
+  #about .container-fluid #portfolio-container .flex-col .nameee h5 {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
   }
 }
 
@@ -398,9 +434,111 @@ footer .copyright {
   padding-bottom: 1.75rem;
 }
 
+#projects .container-fluid .filters .filter {
+  margin: 0 auto;
+}
+
+#projects .container-fluid .filters .filter a {
+  margin: 2rem;
+  cursor: pointer;
+  padding: 0rem !important;
+}
+
+#projects .container-fluid .filters .filter .nav-item {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #F4F4F4;
+}
+
+#projects .container-fluid .filters .filter .active {
+  color: #D4BBFF;
+}
+
+#projects .container-fluid #projects-container {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+#projects .container-fluid #projects-container .flex-col {
+  margin: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#projects .container-fluid #projects-container .flex-col .projects-item video {
+  max-width: 30%;
+}
+
+#projects .container-fluid #projects-container .flex-col .project-description {
+  max-width: 60%;
+  display: block;
+  background-color: #232323;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+#projects .container-fluid #projects-container .flex-col .project-description h2 {
+  font-size: 1.6rem;
+  color: #D4BBFF;
+}
+
+#projects .container-fluid #projects-container .flex-col .project-description p {
+  font-size: 1rem;
+  text-align: justify;
+  color: #F4F4F4;
+}
+
 @media only screen and (max-width: 990px) {
   #projects {
-    background-image: none;
+    background-image: url("./../../assets/images/abstract-responsive.png");
+    background-position: center center;
+  }
+  #projects .container-fluid {
+    padding: 0rem;
+    margin: 0px !important;
+    margin-top: 1.5rem !important;
+  }
+  #projects .container-fluid .section-header {
+    padding-bottom: 0rem;
+    margin-bottom: 1.75rem;
+  }
+  #projects .container-fluid .filters .filter a {
+    margin: 1rem;
+  }
+  #projects .container-fluid #projects-container .flex-col .projects-item video {
+    max-width: 95% !important;
+  }
+  #projects .container-fluid #projects-container .flex-col .project-description {
+    max-width: 95%;
+  }
+  #projects .container-fluid #projects-container .flex-col .project-description h2 {
+    font-size: 1.5rem;
+  }
+  #projects .container-fluid #projects-container .flex-col .project-description p {
+    font-size: 1.2rem;
   }
 }
 
@@ -527,9 +665,8 @@ footer .copyright {
 
 @media only screen and (max-width: 990px) {
   #contact {
+    background-image: url("./../../assets/images/abstract-responsive.png");
     background-position: center center;
-    /* background-image: url("./../../assets/images/abstract-responsive.png"); */
-    background-image: none;
   }
   #contact .container-fluid .section-header {
     padding-bottom: 0rem !important;
