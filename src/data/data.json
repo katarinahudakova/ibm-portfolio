@@ -6,42 +6,42 @@
                 "name": "Branislav Hozza",
                 "position": "Developer",
                 "title": "description ",
-                "image": "1.jpg",
+                "image": "brano.png",
                 "filter": "frontend"
             },
             {
                 "name": "Branislav Hozza",
                 "position": "Developer",
                 "title": "Adobe Aft",
-                "image": "2.jpg",
+                "image": "brano.png",
                 "filter": "frontend"
             },
             {
                 "name": "Branislav Hozza",
                 "position": "Developer",
                 "title": "Adobe A",
-                "image": "3.jpg",
+                "image": "brano.png",
                 "filter": "frontend"
             },
             {
                 "name": "Branislav Hozza",
                 "position": "Developer",
                 "title": "Adobe ",
-                "image": "4.jpg",
+                "image": "brano.png",
                 "filter": "frontend"
             },
             {
                 "name": "Branislav Hozza",
                 "position": "Developer",
                 "title": "Branko ",
-                "image": "7.jpg",
+                "image": "brano.png",
                 "filter": "frontend"
             },
             {
                 "name": "Branislav Hozza",
                 "position": "Developer",
                 "title": "Adob",
-                "image": "1.jpg",
+                "image": "brano.png",
                 "filter": "backend"
             }
         ]
@@ -52,25 +52,25 @@
         "projectList": [
             {
                 "project": "CDE",
-                "video": "cde.mp4",
+                "video": "https://www.youtube.com/embed/M8rubeH-aQQ",
                 "description": "This tool is responsible for gathering and maintaining invoice customization and business consolidation data. Data are pulled from the mainframe database - DB2. This information is stored and ready to be used in invoicing system - eInvoices. CDE is a web-based tool, hosted on IBM hybrid cloud-Cirrus.",
                 "filter": "cde"
             },
             {
                 "project": "SAB-ART",
-                "video": "sabart.mp4",
+                "video": "https://www.youtube.com/embed/PDL82J39kPU",
                 "description": "The aim of the project is to create a custom web application to replace signing requests from the Cobalt application with the additional functionality of uploading proof documentation. The application will be designed with the future possibility of adding functionality through modular design.",
                 "filter": "sabart"
             },
             {
                 "project": "LIW",
-                "video": "liw2.mp4",
+                "video": "https://www.youtube.com/embed/0lvdqC4hwg8",
                 "description": "Local Invoice Writer is a run once multi-country/multi-currency invoicing application with an integrated billing module (LIW-REP) and supports currently more than 120 countries & more than 40 companies (GMU/CEEMEA, SW-Europe & AP).",
                 "filter": "liw"
             },
             {
                 "project": "EBAT",
-                "video": "ebat3.mp4",
+                "video": "https://www.youtube.com/embed/PDL82J39kPU",
                 "description": "The goal of the project was to create a custom on-demand cloud-based portal, which would allow receiving, reviewing, storing, and issuing ELA pricing approvals. The application is designed with the future possibility of adding new functionalities. The tool allows for creating a new deal/bid, submitted by the Dealmaker. Then send the deal to the approver to view/approve/reject the deal. The reviewer can be assigned any needed role to review the content of the deal. EBAT is accessible on a URL link. The application is open to anyone with a w3 ID. Access can be requested by any IBM employee and must be approved by the admin.",
                 "filter": "ebat"
             }
