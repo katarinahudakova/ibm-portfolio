@@ -2,7 +2,7 @@
 
   <section id="about" class="light-section">
     <div class="container-fluid">
-      <h1 class="section-header">About team</h1>
+      <h1 class="section-header">About us</h1>
       <h3 class="textik">Under this category you can find all members of Automation team. </h3>
       
 
@@ -43,11 +43,11 @@
           >
 
             <div class="portfolio-item">
-            <img :src="require(`../../assets/images/team/${item.image}`)" />
+            <img :src="require(`../../assets/images/team/${item.image}`)" width="auto" height="auto" alt="team" />
               <div class="overlay">
                 
                   <div class="about-item-content">
-                    <h3>{{ item.title }}</h3>
+                    <h5>{{ item.title }}</h5>
                   </div>
                 
               </div>
