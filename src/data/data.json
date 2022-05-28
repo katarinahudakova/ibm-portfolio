@@ -3,75 +3,109 @@
         "defaultFilter": "frontend",
         "teamList": [
             {
-                "name": "Branislav Hozza",
-                "position": "Developer",
-                "title": "description ",
-                "image": "brano.png",
+                "name": "Ivan Galetic",
+                "position": "Manager, developer ",
+                "title": "Leader of Automation team, business area managaer, coach, educator as well as technical specialist in front-end development.",
+                "image": "ivan.webp",
+                "filter": "frontend"
+            },
+            {
+                "name": "Benjamin Siskovic",
+                "position": "Frontend lead",
+                "title": "Leader of all fronted developers, who takes care of the frontend on projects. Primarily work is to understand stakehoder requirements.",
+                "image": "Benjamin.webp",
+                "filter": "frontend"
+            },
+            {
+                "name": "Valeriia Dotsenko",
+                "position": "Frontend developer",
+                "title": "Working in an agile, collaborative environment accross software architecture, understanding concerns, closely work with designers.",
+                "image": "valeri.webp",
                 "filter": "frontend"
             },
             {
                 "name": "Branislav Hozza",
-                "position": "Developer",
-                "title": "Adobe Aft",
-                "image": "brano.png",
+                "position": "Junior Frontend Developer",
+                "title": "Assist of develpment team with all aspects of software design and coding. Primary role is to fix bugs, learn codebase and attend design meetings.",
+                "image": "brano.webp",
                 "filter": "frontend"
             },
             {
-                "name": "Branislav Hozza",
-                "position": "Developer",
-                "title": "Adobe A",
-                "image": "brano.png",
+                "name": "Dominika Zimova",
+                "position": "Business Analyst",
+                "title": "Business logic, communication with the client at the beginning of the project, creating tasks for designers and developers to meet the client's requirements.",
+                "image": "domi.webp",
                 "filter": "frontend"
             },
             {
-                "name": "Branislav Hozza",
-                "position": "Developer",
-                "title": "Adobe ",
-                "image": "brano.png",
-                "filter": "frontend"
+                "name": "Joachim Siskovic",
+                "position": "Solution architect",
+                "title": "For a new project, he is responsible for the technical implementation, he will suggest, how should it looks like from a technical point of view.",
+                "image": "Joachim.webp",
+                "filter": "backend"
             },
             {
-                "name": "Branislav Hozza",
-                "position": "Developer",
-                "title": "Branko ",
-                "image": "brano.png",
-                "filter": "frontend"
+                "name": "Anastos Odyssefs",
+                "position": "Backend developer",
+                "title": "Responsible for creating, maintaining, testing and debugging the entire back-end of websites. This includes core application logic, integration and other processes.",
+                "image": "Anastos.webp",
+                "filter": "backend"
             },
             {
-                "name": "Branislav Hozza",
-                "position": "Developer",
-                "title": "Adob",
-                "image": "brano.png",
+                "name": "Augustin Nemec",
+                "position": "Backend developer",
+                "title": "Database creation, integration and management. Primary role is to ensure database interceonnection with front-end and to build server-side software.",
+                "image": "atila.webp",
+                "filter": "backend"
+            },
+            {
+                "name": "Ondrej Harnusek",
+                "position": "Backend developer",
+                "title": "Create, code, and improve the server, server-side applications and databases that, help create a functional, seamless experience for the end-user. ",
+                "image": "ondrej.webp",
+                "filter": "backend"
+            },
+            {        
+                "name": "Peter Hidasy",
+                "position": "Backend lead",
+                "title": "Leader of all backend developers and takes care of the backend on projects, and databases. Managing the entire software development architecture.",
+                "image": "peter.webp",
                 "filter": "backend"
             }
+
         ]
     },
 
     "projects":{
         "defaultFilter": "sabart",
         "projectList": [
-            {
-                "project": "CDE",
-                "video": "https://www.youtube.com/embed/M8rubeH-aQQ",
-                "description": "This tool is responsible for gathering and maintaining invoice customization and business consolidation data. Data are pulled from the mainframe database - DB2. This information is stored and ready to be used in invoicing system - eInvoices. CDE is a web-based tool, hosted on IBM hybrid cloud-Cirrus.",
-                "filter": "cde"
-            },
+            
             {
                 "project": "SAB-ART",
-                "video": "https://www.youtube.com/embed/PDL82J39kPU",
+                "video": "https://www.youtube.com/embed/79tG_7FFjzc",
                 "description": "The aim of the project is to create a custom web application to replace signing requests from the Cobalt application with the additional functionality of uploading proof documentation. The application will be designed with the future possibility of adding functionality through modular design.",
+                "link": "https://staging-sab-art.eu-gb.cf.appdomain.cloud/access",
                 "filter": "sabart"
             },
             {
+                "project": "CDE",
+                "video": "https://www.youtube.com/embed/IoderdwDUhg",
+                "description": "This tool is responsible for gathering and maintaining invoice customization and business consolidation data. Data are pulled from the mainframe database - DB2. This information is stored and ready to be used in invoicing system - eInvoices. CDE is a web-based tool, hosted on IBM hybrid cloud-Cirrus.",
+                "link": "https://cismiv.us1a.cirrus.ibm.com",
+                "filter": "cde"
+            },
+            {
                 "project": "LIW",
-                "video": "https://www.youtube.com/embed/0lvdqC4hwg8",
-                "description": "Local Invoice Writer is a run once multi-country/multi-currency invoicing application with an integrated billing module (LIW-REP) and supports currently more than 120 countries & more than 40 companies (GMU/CEEMEA, SW-Europe & AP).",
+                "video": "https://www.youtube.com/embed/OrmGSLA1DwE",
+                "description": "Local Invoice Writer is a run once multi-country/multi-currency invoicing application with an integrated billing module (LIW-REP) and supports currently more than 120 countries & more than 40 companies (GMU/CEEMEA, SW-Europe & AP). The invoices come from the client and IBM editing and checking them. The application is still in development phase.",
+                "link": "",
                 "filter": "liw"
             },
             {
                 "project": "EBAT",
-                "video": "https://www.youtube.com/embed/PDL82J39kPU",
-                "description": "The goal of the project was to create a custom on-demand cloud-based portal, which would allow receiving, reviewing, storing, and issuing ELA pricing approvals. The application is designed with the future possibility of adding new functionalities. The tool allows for creating a new deal/bid, submitted by the Dealmaker. Then send the deal to the approver to view/approve/reject the deal. The reviewer can be assigned any needed role to review the content of the deal. EBAT is accessible on a URL link. The application is open to anyone with a w3 ID. Access can be requested by any IBM employee and must be approved by the admin.",
+                "video": "https://www.youtube.com/embed/etP9nGXT_x4",
+                "description": "The goal of the project was to create a custom on-demand cloud-based portal, which would allow receiving, reviewing, storing, and issuing ELA pricing approvals. The tool allows for creating a new deal/bid, submitted by the Dealmaker. Then send the deal to the approver to view/approve/reject the deal.",
+                "link": "​​https://ebat.dal1a.cirrus.ibm.com/",
                 "filter": "ebat"
             }
         ]
@@ -82,7 +116,7 @@
         "street": "Dubravska cesta 1799",
         "city": "841 01 Karlova Ves, Slovakia",
         "phone": "+(421) 904 652 093",
-        "social": "ivan-ba-team",
+        "social": "#ivan-ba-team",
         "email": "igaletic@sk.ibm.com"
     }
 }
