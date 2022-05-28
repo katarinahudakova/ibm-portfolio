@@ -79,7 +79,7 @@
             position: relative;
 
             h3 {
-              font-size: 1.2rem;
+              font-size: 1.2m;
             }
 
             img {
@@ -98,6 +98,7 @@
               transition: 0.5s ease;
               background-color: $gray-dark;
               text-align: center;
+              font-size:10px;
 
               .about-item-content {
                 position: absolute;
@@ -125,12 +126,13 @@
 
             h2{
               font-size: 1.2rem;
-              font-weight: bold;
+              font-weight: bold ;
               text-transform: uppercase;
             }
 
             h5{
               font-size: 1.1rem;
+              font-weight: 300;
               margin-top: 1rem;
             }
           }
@@ -175,7 +177,7 @@
             .overlay {
 
               .about-item-content {
-                padding: 1.5rem 0.5rem;
+                padding: 1rem 0.5rem;
               }
             }
           }
