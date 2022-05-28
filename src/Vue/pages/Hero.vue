@@ -28,9 +28,9 @@
         typeValue: '',
         typeStatus: false,
         typeArray: ["Automation team", "Portfolio"],
-        typingSpeed: 200,
+        typingSpeed: 100,
         erasingSpeed: 100,
-        newTextDelay: 2000,
+        newTextDelay: 500,
         typeArrayIndex: 0,
         charIndex: 0
       }
