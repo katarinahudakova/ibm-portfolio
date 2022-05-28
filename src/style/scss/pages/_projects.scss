@@ -63,17 +63,14 @@
           height: auto;
 
           .flex-col{
-            margin: 1rem;
+            margin: 3rem;
             justify-content: center;
             align-items: center;
-            display: flex;
-            flex-direction: column;
+           display:flex;
+           flex-direction: row;
 
             .projects-item{
-              /* video{
-                max-width: 30%;
-                margin-top: 1rem;
-              } */
+
               margin-top: 1rem;
 
               iframe{
@@ -84,12 +81,12 @@
             }
   
             .project-description{
-              max-width: 60%;
               display: block;
               background-color: #232323;
-              padding: 1rem;
+              padding: 3rem;
               border-radius: 20px;
               margin-top: 0rem;
+              margin-left: 5%;
 
               h2{
                 font-size: 1.6rem;
@@ -100,6 +97,14 @@
                 font-size: 1rem;
                 text-align: justify;
                 color: $gray-light;
+              }
+
+              a{
+                color: $purple-light;
+                text-decoration: none;
+                &:hover{
+                  color: $purple-dark;
+                }
               }
             }
           }
@@ -112,6 +117,7 @@
   #projects{
     background-image: url("./../../assets/images/abstract-responsive.png");
     background-position: center center;
+    min-height: 70%;
 
     .container-fluid {
       padding: 0rem;
@@ -136,13 +142,10 @@
       #projects-container{
 
         .flex-col{
-
+          display: flex;
+          flex-direction: column;
           .projects-item{
-              
-            /* video{
-              max-width: 95%!important;
-            } */
-
+            
             iframe{
               width: 75vw;
               height: auto;
@@ -158,7 +161,7 @@
             }
 
             p{
-              font-size: $font-size-md;
+              font-size: 12px;
             }
           }
         }
