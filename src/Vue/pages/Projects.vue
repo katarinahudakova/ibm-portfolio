@@ -36,11 +36,6 @@
           class="col-sm-12 col-md-12 flex-col"
         >
 
-          <div class="project-description">
-            <h2>{{ item.project }}</h2>
-            <p>{{ item.description }}</p>
-          </div>
-
           <div class="projects-item">
             <!-- <video style="max-width:30%; max-height:auto display:block" controls muted>
                 <source :src="require(`../../assets/videos/${item.video}`)" type="video/mp4">
@@ -58,7 +53,12 @@
               </iframe>
           </div>
 
-
+          <div class="project-description">
+            <h2>{{ item.project }}</h2>
+            <p>{{ item.description }}</p>
+            <a :href="item.link" target="_blank">LINK FOR THE PROJECT</a>
+          </div>
+          
         </div>
       </div>
 
