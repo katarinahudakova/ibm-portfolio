@@ -87,6 +87,7 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.8737587196174!2d17.069513551108244!3d48.170514279124156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8c7691917bd5%3A0xfd71f4a0e053c0fa!2sWestend%20Gate%20Building%20B%20%E2%80%93%20IBM%20ISC.!5e0!3m2!1sen!2sdk!4v1653227647249!5m2!1sen!2sdk"
                 width="90%"
                 height="540"
+                title="Map"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
