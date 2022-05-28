@@ -65,28 +65,8 @@ section .container-fluid {
   margin: 0 auto;
 }
 
-/* @media only screen and (max-width: 990px){
-  .sections-together{
-    background-image: url('./../../assets/images/abstract-responsive-full-06.png')!important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: absolute;
-    background-color: transparent!important;
-  }
-} */
 header li.home-icon {
   margin-left: 57vw;
-}
-
-header .home-icon {
-  /* &:hover{
-            background-color: transparent!important;
-        } */
-  /* .bx--text-truncate--end{
-            margin-left: 58vw;
-        } */
-  /* display: flex; */
 }
 
 footer {
@@ -314,7 +294,7 @@ footer .copyright {
 }
 
 #about .container-fluid #portfolio-container .flex-col .portfolio-item h3 {
-  font-size: 1.2rem;
+  font-size: 1.2m;
 }
 
 #about .container-fluid #portfolio-container .flex-col .portfolio-item img {
@@ -333,6 +313,7 @@ footer .copyright {
   transition: 0.5s ease;
   background-color: #262626;
   text-align: center;
+  font-size: 10px;
 }
 
 #about .container-fluid #portfolio-container .flex-col .portfolio-item .overlay .about-item-content {
@@ -365,6 +346,7 @@ footer .copyright {
 
 #about .container-fluid #portfolio-container .flex-col .nameee h5 {
   font-size: 1.1rem;
+  font-weight: 300;
   margin-top: 1rem;
 }
 
@@ -393,7 +375,7 @@ footer .copyright {
     font-size: 0.8rem;
   }
   #about .container-fluid #portfolio-container .flex-col .portfolio-item .overlay .about-item-content {
-    padding: 1.5rem 0.5rem;
+    padding: 1rem 0.5rem;
   }
   #about .container-fluid #portfolio-container .flex-col .nameee {
     margin-top: 1rem;
@@ -476,7 +458,7 @@ footer .copyright {
 }
 
 #projects .container-fluid #projects-container .flex-col {
-  margin: 1rem;
+  margin: 3rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -486,17 +468,13 @@ footer .copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #projects .container-fluid #projects-container .flex-col .projects-item {
-  /* video{
-                max-width: 30%;
-                margin-top: 1rem;
-              } */
   margin-top: 1rem;
 }
 
@@ -507,12 +485,12 @@ footer .copyright {
 }
 
 #projects .container-fluid #projects-container .flex-col .project-description {
-  max-width: 60%;
   display: block;
   background-color: #232323;
-  padding: 1rem;
+  padding: 3rem;
   border-radius: 20px;
   margin-top: 0rem;
+  margin-left: 5%;
 }
 
 #projects .container-fluid #projects-container .flex-col .project-description h2 {
@@ -526,10 +504,20 @@ footer .copyright {
   color: #F4F4F4;
 }
 
+#projects .container-fluid #projects-container .flex-col .project-description a {
+  color: #D4BBFF;
+  text-decoration: none;
+}
+
+#projects .container-fluid #projects-container .flex-col .project-description a:hover {
+  color: #491D8B;
+}
+
 @media only screen and (max-width: 990px) {
   #projects {
     background-image: url("./../../assets/images/abstract-responsive.png");
     background-position: center center;
+    min-height: 70%;
   }
   #projects .container-fluid {
     padding: 0rem;
@@ -543,10 +531,14 @@ footer .copyright {
   #projects .container-fluid .filters .filter a {
     margin: 1rem;
   }
-  #projects .container-fluid #projects-container .flex-col .projects-item {
-    /* video{
-              max-width: 95%!important;
-            } */
+  #projects .container-fluid #projects-container .flex-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #projects .container-fluid #projects-container .flex-col .projects-item iframe {
     width: 75vw;
@@ -560,7 +552,7 @@ footer .copyright {
     font-size: 1.5rem;
   }
   #projects .container-fluid #projects-container .flex-col .project-description p {
-    font-size: 1.2rem;
+    font-size: 12px;
   }
 }
 
