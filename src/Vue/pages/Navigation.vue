@@ -1,8 +1,8 @@
 <template>
-
+<div role="tablist">
   <cv-header aria-label="Carbon header">
     <cv-header-menu-button aria-label="Header menu" aria-controls="side-nav" />
-    <cv-skip-to-content href="#main-content">
+    <cv-skip-to-content href="#about">
       Skip to content
     </cv-skip-to-content>
     
@@ -46,7 +46,6 @@
     <template v-slot:right-panels v-if="areRightPanels"></template>
 
   </cv-header> 
-
-   
+</div>
 </template>
 
