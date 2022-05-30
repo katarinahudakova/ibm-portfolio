@@ -20,16 +20,6 @@ body {
   overflow-x: hidden;
 }
 
-/* .light-section {
-  @include section-color($gray-light, $gray-dark);
-}
-
-.dark-section {
-  @include section-color($gray-dark, $gray-light);
-} */
-/* .dark-bg {
-  background-color: $dark-bg;
-} */
 html,
 body,
 #app {
@@ -108,7 +98,7 @@ footer .copyright {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 0.5%;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -128,6 +118,9 @@ footer .copyright {
   }
   footer .logo img {
     height: 30px;
+  }
+  footer .copyright {
+    margin-top: 0.5%;
   }
   footer .copyright p {
     margin-bottom: 0px !important;
@@ -216,9 +209,6 @@ footer .copyright {
   background-color: #F4F4F4;
   background-image: url("./../../assets/images/abstract.png");
   background-size: cover;
-  /* .light-section {
-     */
-  /* } */
 }
 
 #about .container-fluid {
